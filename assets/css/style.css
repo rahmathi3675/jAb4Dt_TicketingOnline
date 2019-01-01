@@ -1,0 +1,243 @@
+@import "custom-fonts.css";
+@import "parallax.css";
+@import "logo-nav.css";
+body{
+  margin: 0; 
+}
+/*home*/
+.dark-effect{
+  position:absolute;width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.2);
+}
+.front-layer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#logo{
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+#logo-bg{
+  position:absolute;
+  width:300px;
+  height:150px;
+  background-image: url('../images/logo-primary-bg.png');
+  background-size: cover;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#logo-wrapper{
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#logo-image{
+  width: 100px;
+}
+#home-caption-wrapper{
+  position: relative;
+  color: #fff;
+  top:30%;
+}
+.home-caption{
+  font-family:custom_font_2;
+  font-size:80px;
+  text-decoration:underline;
+}
+.content-wrapper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+}
+.content-icon{
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.5px solid #c9c9c9;
+  color: #007bff;
+}
+.content-icon-caption{
+  color: #007bff;
+}
+.news-card{
+  padding: 10px;
+}
+.news-highlight-img-container{
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.news-highlight-img{
+  position: absolute;
+  height: 100% !important;
+  left: 50%;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.news-highlight-links{
+  text-decoration: none !important;
+}
+.news-highlight-links:link{
+  color: #616161;
+}
+.news-highlight-links:visited{
+  color: #616161;
+}
+.news-highlight-links:hover{
+  color: black;
+}
+.news-highlight-links:active{
+  color: #616161;
+}
+.breadcrumb-item a{
+  text-decoration: none !important;
+}
+#achievements-pagination{
+  padding-top: 10px;
+}
+#publics-pagination{
+  padding-top: 10px;
+}
+.about-wrapper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  height: 100vh;
+}
+.blue-list-dot li{
+  color: #007bff;
+}
+.blue-list-dot li>span{
+  color: initial;
+}
+.tabs-link{
+  margin: auto;
+}
+.login-wrapper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-bottom: 1px solid #c9c9c9;
+  height: 50vh;
+}
+#default-footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  height: 50vh;
+}
+#default-footer-brand{
+  text-align: center;
+}
+#default-footer-logo{
+  position: relative;
+  height:80px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#contact{
+  text-align: center;
+}
+.default-footer-border{
+  border-right: 1px solid #c9c9c9;
+}
+#default-footer-socials{
+  display: none;
+}
+#default-footer-socials>div{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.default-footer-socials-outer{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+.default-footer-socials-inner{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#default-footer-facebook{
+  background-color: #3b5998;
+}
+#default-footer-twitter{
+  background-color: #55acee;
+}
+#default-footer-google{
+  background-color: #dd4b39;
+}
+.vertical-center{
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+#default-footer-link{
+  text-decoration: none;
+}
+#default-footer-link:link{
+  color: #616161;
+}
+#default-footer-link:active{
+  color: #616161;
+}
+#default-footer-link:hover{
+  color: #616161;
+}
+#default-footer-link:visited{
+  color: #616161;
+}
+@media (max-width: 768px){
+  #logo div{
+    display: none;
+  }
+  .navbar{
+    display: flex !important;
+  }
+  #fixed-socials-outer{
+    display: none;
+  }
+  .home-caption{
+    font-size: 28px;
+  }
+  .news-card-container{
+    padding-top: 10px;
+  }
+  .about-wrapper{
+    height: auto;
+  }
+  .login-wrapper{
+    height: auto;
+  }
+  #default-footer{
+    height: auto;
+  }
+  #default-footer-brand{
+    padding-top: 10px;
+  }
+  .default-footer-border{
+    border: none;
+  }
+  #contact{
+    text-align: left;
+  }
+  #default-footer-socials{
+    display: flex;
+  }
+}

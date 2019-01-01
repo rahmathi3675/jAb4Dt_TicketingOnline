@@ -1,0 +1,124 @@
+/*primary nav*/
+nav#primary {
+  position: fixed;
+  right: 16px;
+  top: 50%;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+nav#primary li {
+  position: relative;
+  height: 20px;
+  list-style: none;
+}
+nav#primary a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: transparent url('../images/nav-dot.png') 4px 4px no-repeat;
+}
+nav#primary a:hover, nav#primary a.active {
+  background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
+}
+nav#primary h1 {
+  position: absolute;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: custom_font_1;
+  right: 22px;
+  top: -7px;
+  display: none;
+  padding: 4px 20px 4px 7px;;
+  color: #fff;
+  white-space: nowrap;
+  background: transparent url('../images/nav-arrow.png') 100% 50% no-repeat;
+}
+/*fixed socials item*/
+#fixed-socials-outer{
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.fixed-socials-item{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#facebook{
+  border: 2px solid #3b5998;
+  background-color: #3b5998;
+  transition:transform 0.5s;
+}
+#facebook-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#twitter{
+  border: 2px solid #55acee;
+  background-color: #55acee;
+  transition:transform 0.5s;
+}
+#twitter-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#google{
+  border: 2px solid #dd4b39;
+  background-color: #dd4b39;
+  transition:transform 0.5s;
+}
+#google-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+/*ham button*/
+.inner-ham-btn-t{
+  width:40px;
+  height:3px;
+  margin:5px;
+  background-color: #fff;
+  border-radius:2px;
+  transition:transform 0.5s;
+}
+.inner-ham-btn-m{
+  width:40px;
+  height:3px;
+  margin:5px;
+  background-color: #fff;
+  border-radius:2px;
+  transition:transform 0.5s;
+}
+.inner-ham-btn-b{
+  width:40px;
+  height:3px;
+  margin:5px;
+  background-color: #fff;
+  border-radius:2px;
+  transition:transform 0.5s;
+}
+.inner-ham-btn-caption{
+  margin:5px;
+  font-family: 'custom_font_1';
+  font-size: 20px;
+  color: #007bff;
+}
+
