@@ -1,0 +1,47 @@
+/*---------------------------- Images SlideShow------------------------------ */
+
+#slider {
+    width: 970px; /* important to be same as image width */
+    height: 300px; /* important to be same as image height */
+    position: relative; /* important */
+	overflow: hidden; /* important */
+}
+#sliderContent {
+    width: 1050px; /* important to be same as image width or wider */
+    position: absolute;
+	right: 0;
+	margin: 0;
+}
+.sliderImage {
+    float: center;
+    position: relative;
+	display: none;
+}
+.sliderImage span {
+    position: absolute;
+	font: 14px/18px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 1170px;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+    opacity: 0.5;
+    color: #fff;
+    display: none;
+}
+.clear {
+	clear: both;
+}
+.sliderImage span strong {
+    font-size: 18px;
+}
+.top {
+	top: 0;
+	left: 0;
+}
+.bottom {
+	bottom: 0;
+    left: 0;
+}
+ul { list-style-type: none;}
