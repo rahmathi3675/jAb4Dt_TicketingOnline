@@ -10,6 +10,7 @@ Note		: Lebih Mementingkan Kebutuhan Feature  dari pada UI
 
 
 Langsung Aja Gan Sedot...
+Untuk Assets file fontawsome nya di ekstrak sendiri aja, karna isinya banyak.
 
 
 Bagi agan agan yang mau donasi dipersilahkan
